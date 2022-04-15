@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "acorn": "^7.4.1",
     "acorn-node": "^1.8.2",
     "acorn-walk": "^7.2.0",
@@ -68,6 +69,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://devcodingskill.github.io/myresume",
+  "homepage": "https://devcodingskill.github.io/myresume",
   "description": ""
 }

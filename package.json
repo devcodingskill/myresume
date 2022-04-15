@@ -63,10 +63,11 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage":"https://devcodingskill.github.io/myresume",
   "description": ""
 }

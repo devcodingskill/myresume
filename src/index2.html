@@ -1,368 +1,436 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
-</head>
+  </head>
 
-<body class="bg-gray-600">
+  <body class="bg-gray-600">
     <!-- ******header contain****** -->
-    <header class="flex justify-center py-20 items-center">
-        <div class="container ">
-            <h1 class="text-white text-8xl text-center font-bold py-2 px-10 font-serif">TAN</h1>
-            <p class="text-white text-lg   text-center py-1 ">Yutthana Tantinimitchok</p>
-            <p class="text-white text-lg   text-center py-5 ">Software developer/Civil Engineer</p>
+    <header class="flex justify-center py-16 items-center">
+      <div class="container">
+        <h1
+          class="text-white text-8xl text-center font-bold py-1 px-10 font-serif"
+        >
+          TAN
+        </h1>
+        <p class="text-white text-lg text-center py-1">
+          Yutthana Tantinimitchok
+        </p>
+        <p class="text-white text-lg text-center py-3">
+          Software developer/Civil Engineer
+        </p>
 
-            <div class="flex items-center justify-center gap-4 text-white">
-                <a href="https://www.linkedin.com/in/yutthana-tantinimitchok-28013346/">
-                    <i class="fab fa-linkedin fa-3x "></i></a>
-                <a href="https://github.com/devcodingskill">
-                    <i class="fab fa-github-square fa-3x" aria-hidden="true"></i></a>
-            </div>
-        </div>        
+        <div class="flex items-center justify-center gap-4 text-white">
+          <a
+            href="https://www.linkedin.com/in/yutthana-tantinimitchok-28013346/"
+          >
+            <i class="fab fa-linkedin fa-3x"></i
+          ></a>
+          <a href="https://github.com/devcodingskill">
+            <i class="fab fa-github-square fa-3x" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
     </header>
 
     <!-- ******main contain****** -->
-    <div class="container  mx-auto">
-        <div class="grid grid-cols-1 gap-y-10">
-            <div class=" md:hidden">
-                <img src="/assets/image/img_me.jpg" alt="me" width="200" height="300"
-                    class="max-w-full h-auto rounded-full" />
-            </div>
-            <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
-                <h2 class="title-font text-4xl font-bold mb-3">About Me</h2>
-                <div class="grid grid-cols-1  md:grid-cols-6 gap-2 ">
-                    <div class="col-star-2 md:col-star-1 ">
-                        <img src="/assets/image/img_me.jpg" alt="me" width="200" height="300"
-                            class="max-w-full h-auto rounded-full" />
-                    </div>
-                    <div class="col-start-2 md:col-start-2 col-span-5">
-                        <p class="leading-relaxed  text-lg break-before-auto ">I'm a hard-working person with a strong determination and
-                            have fulfilled what I have committed to. I also like to help people who are in need.
-                            Being a student and also working as a Software developer, I enjoy the technology that comes
-                            along as it allows me to put together the things I have studied in action. This passion
-                            comes from working as a Civil Engineer before as construction and designing/developing
-                            always fascinated me since I was a kid.
-                            Working as a software developer interests me because technology plays a large role in
-                            today’s world. As Software developing is a part of technology, it makes our lives easier.
-                            I love what I do instead of the common phrase "Do what you love “. I always try my best to
-                            do things in the right way.
-                            I have always had a keen interest in learning new things and would continually challenge and
-                            motivate myself to improve. My short-term goal is bringing value to the team and company. My
-                            long-term goal is to gain knowledge in the area of software development, manage projects and
-                            help our company members if they need help.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-white rounded-md px-4 py-4 border-2 border-blue-600">
-                <h2 class="title-font text-4xl font-bold mb-3">Work place</h2>
-
-
-                <div class="accordion" id="accordionExample5">
-                    <div class="accordion-item bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="headingOne5">
-                            <button class="
-                          accordion-button
-                          relative
-                          flex
-                          items-center
-                          w-full
-                          py-4
-                          px-5
-                          text-base text-gray-800 text-left
-                          bg-white
-                          border-0
-                          rounded-none
-                          transition
-                          focus:outline-none
-                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5" aria-expanded="true"
-                                aria-controls="collapseOne5">
-                                Software Developer/Mobile Testing - InspectRealEstate, Brisbane, Australia
-                            </button>
-                        </h2>
-                        <div id="collapseOne5" class="accordion-collapse collapse show" aria-labelledby="headingOne5">
-                            <div class="accordion-body py-4 px-5">
-                                <strong class="text-lg">Software Developer/Testing</strong>
-                                <p class="italic">Oct 2018 – June 2021 (casual)</p>
-                                <p class="italic">July 2021 – Present  (Full-Time)</p>
-                                <div class="pl-10">
-                                    <ul class="list-disc">
-                                        <li>Debug and fix existing mobile applications.</li>
-                                        <li>Add new features to mobile applications to meet the client requirement.</li>
-                                        <li>Add or modify SQL database.</li>
-                                        <li>Add and Modify Web API to complete or fix new function.</li>
-                                        <li>Use Azure DevOps service for source control and team foundation.</li>
-                                        <li>Use the Agile approach to manage a project and software development.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="accordion-item bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="headingTwo5">
-                            <button class="
-                          accordion-button
-                          collapsed
-                          relative
-                          flex
-                          items-center
-                          w-full
-                          py-4
-                          px-5
-                          text-base text-gray-800 text-left
-                          bg-white
-                          border-0
-                          rounded-none
-                          transition
-                          focus:outline-none
-                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo5" aria-expanded="false"
-                                aria-controls="collapseTwo5">
-                                Civil Engineer -Land Development Department, Thailand
-                            </button>
-                        </h2>
-                        <div id="collapseTwo5" class="accordion-collapse collapse" aria-labelledby="headingTwo5">
-                            <div class="accordion-body py-4 px-5">
-                                <strong> Civil Engineer/Estimation.</strong>
-                                <p class="italic">Mar 2002 – Oct 2003  (Full-Time)</p>
-                                <div class="pl-10">
-                                    <ul class="list-disc">
-                                        <li>Site inspection for civil works, which includes structural & finishing works
-                                            and ensure that the work is as per the Project Specifications and issued for
-                                            construction drawing/final approved drawings from authorities.
-                                        </li>
-                                        <li>Participated part in survey and design of small-scale water resources
-                                            department projects.</li>
-                                        <li>Coordination with subcontractors.</li>
-                                        <li>Cost estimation for small-scale water resources department projects</li>
-                                        <li>Monitor the progress of work with respect to the Master Program.
-                                        </li>
-                                        <li>Analysis and recommendations of claims</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="accordion-item bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="headingThree5">
-                            <button class="
-                          accordion-button
-                          collapsed
-                          relative
-                          flex
-                          items-center
-                          w-full
-                          py-4
-                          px-5
-                          text-base text-gray-800 text-left
-                          bg-white
-                          border-0
-                          rounded-none
-                          transition
-                          focus:outline-none
-                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree5"
-                                aria-expanded="false" aria-controls="collapseThree5">
-                                Civil Engineer -Petro Bangkok co.,Ltd, Thailand
-                            </button>
-                        </h2>
-                        <div id="collapseThree5" class="accordion-collapse collapse" aria-labelledby="headingThree5">
-                            <div class="accordion-body py-4 px-5">
-                                <strong>Site Engineer</strong>
-                                <p class="italic">Jan 2000 – Jan 2002
-                                    (Full-Time)</p>
-                                <div class="pl-10">
-                                    <ul class="list-disc">
-                                        <li> Ensure that all the works meet the stipulated quality standards.</li>
-                                        <li> Issuing site instructions against violations at the site.</li>
-                                        <li>Ensure the quality of building materials, concrete, etc..., through various
-                                            tests.
-                                        </li>
-                                        <li>Coordination of architectural and structural drawings.
-                                        </li>
-                                        <li> Preparation of Running Account bills.
-                                        </li>
-                                        <li>Proper management of materials and workmanship.
-                                        </li>
-                                        <li> Preparing and analyzing productivity Reports.
-                                        </li>
-                                        <li>Daily updating of coasting sheets for the project manager.
-
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item bg-white border border-gray-200">
-                            <h2 class="accordion-header mb-0" id="headingfour5">
-                                <button class="
-                              accordion-button
-                              relative
-                              flex
-                              items-center
-                              w-full
-                              py-4
-                              px-5
-                              text-base text-gray-800 text-left
-                              bg-white
-                              border-0
-                              rounded-none
-                              transition
-                              focus:outline-none
-                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour5" aria-expanded="true"
-                                    aria-controls="collapsefour5">
-                                    Restaurant Owner-Thai Treasure Restaurant, St. Lucia Brisbane, Australia
-                                </button>
-                            </h2>
-                            <div id="collapsefour5" class="accordion-collapse collapse show" aria-labelledby="headingfour5">
-                                <div class="accordion-body py-4 px-5">
-                                    <strong class="text-lg">Owner
-                                    </strong>
-                                  
-                                    <p class="italic">Jan 2007 – Mar 2017
-                                    </p>
-                                    <div class="pl-10">
-                                        <ul class="list-disc">
-                                            <li> Manage a team and provide good customer service.</li>
-                                            <li>Solve all problems and issues in the restaurant.
-                                            </li>
-                                            <li>Come up with a business strategy to improve the business overall.
-                                            </li>
-                                            <li>Ensure the quality of the food is good.
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="bg-white rounded-md px-4 py-4 border-2 border-blue-600">
-                <h2 class="title-font text-4xl font-bold mb-3">Education</h2>
-                <div class="grid grid-cols-1 gap-4 pl-8">
-                    <div class="border-2">
-                        <p class="italic">2018-2020</p>
-                        <h3 class="text-lg font-bold">Bachelor of Information Technology (Computer science)</h3>
-                        <p>Queensland University of Technology (QUT), Queensland, Australia </p>
-                    </div>
-                    <div class="border-2">
-                        <p class="italic">2017-2018</p>
-                        <h3 class="text-lg font-bold">Diploma of Software Development</h3>
-                        <p>TAFE Queensland, Queensland, Australia 
-                        </p>
-                    </div>
-                    <div class="border-2">
-                        <p class="italic">2005-2006</p>
-                        <h3 class="text-lg font-bold">AutoCAD Design</h3>
-                        <p>TAFE Queensland, Queensland, Australia  </p>
-                    </div>
-                    <div class="border-2">
-                        <p class="italic">1996-1999</p>
-                        <h3 class="text-lg font-bold">Bachelor of Civil Engineer</h3>
-                        <p>Mahanakorn University of Technology (MUT), Bangkok, Thailand 
-                        </p>
-                    </div>
-                </div>
-
-
-            </div>
-          
-            <div class="bg-white rounded-md px-4 py-4 border-2 border-blue-600 ">
-
-
-                <section class="bg-gray-100">
-                    <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-                        <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-                            <div class="lg:py-12 lg:col-span-2">
-                                <p class="max-w-xl text-lg">
-                                    If you want to get in touch with me, fill in your details and let me know what you
-                                    need.
-                                </p>
-
-                                <div class="mt-8">
-                                    <!-- <a href="" class="text-2xl font-bold text-pink-600">Brisbane, Australia</a> -->
-
-                                    <address class="mt-2 not-italic">Brisbane, Australia</address>
-                                </div>
-                            </div>
-
-                            <div class="p-8 bg-gray-400 rounded-lg shadow-lg lg:p-12 lg:col-span-3">
-                                <form action="" class="space-y-4">
-                                    <div>
-                                        <label class="sr-only" for="name">Name</label>
-                                        <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name"
-                                            type="text" id="name" />
-                                    </div>
-
-                                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                                        <div>
-                                            <label class="sr-only" for="email">Email</label>
-                                            <input class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                                                placeholder="Email address" type="email" id="email" />
-                                        </div>
-
-                                        <div>
-                                            <label class="sr-only" for="phone">Phone</label>
-                                            <input class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                                                placeholder="Phone Number" type="tel" id="phone" />
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <label class="sr-only" for="message">Message</label>
-                                        <textarea class="w-full p-3 text-sm border-gray-200 rounded-lg"
-                                            placeholder="Message" rows="8" id="message"></textarea>
-                                    </div>
-
-                                    <div class="mt-4">
-                                        <button type="submit"
-                                            class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto">
-                                            <span class="font-medium"> Send </span>
-
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- end other -->
-            </div>
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 gap-y-10 px-3">
+        <!-- image only show for small screen -->
+        <div class="grid place-content-center md:hidden">
+          <img
+            src="/assets/image/img_me.jpg"
+            alt="me"
+            width="200"
+            height="300"
+            class="max-w-full h-auto rounded-full"
+          />
         </div>
+        <!-- first row content -->
+        <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
+          <h2 class="title-font text-4xl font-bold mb-3">About Me</h2>
+          <div class="grid grid-cols-1 md:grid-cols-6 gap-2">
+            <div class="col-star-2 md:col-star-1">
+              <img
+                src="/assets/image/img_me.jpg"
+                alt="me"
+                width="200"
+                height="300"
+                class="max-w-full h-auto rounded-full"
+              />
+            </div>
+            <div class="col-start-2 md:col-start-2 col-span-5">
+              <p class="leading-relaxed text-lg break-before-auto">
+                I'm a hard-working person with a strong determination and have
+                fulfilled what I have committed to. I also like to help people
+                who are in need. Being a student and also working as a Software
+                developer, I enjoy the technology that comes along as it allows
+                me to put together the things I have studied in action. This
+                passion comes from working as a Civil Engineer before as
+                construction and designing/developing always fascinated me since
+                I was a kid. Working as a software developer interests me
+                because technology plays a large role in today’s world. As
+                Software developing is a part of technology, it makes our lives
+                easier. I love what I do instead of the common phrase "Do what
+                you love “. I always try my best to do things in the right way.
+                I have always had a keen interest in learning new things and
+                would continually challenge and motivate myself to improve. My
+                short-term goal is bringing value to the team and company. My
+                long-term goal is to gain knowledge in the area of software
+                development, manage projects and help our company members if
+                they need help.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--second row content work place-->
+        <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
+          <h2 class="title-font text-4xl font-bold mb-3">Work place</h2>
+
+          <div class="accordion" id="accordionExample5">
+            <div class="accordion-item bg-white border border-gray-200">
+              <h2 class="accordion-header mb-0" id="headingOne5">
+                <button
+                  class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne5"
+                  aria-expanded="true"
+                  aria-controls="collapseOne5"
+                >
+                  Software Developer/Mobile Testing - InspectRealEstate,
+                  Brisbane, Australia
+                </button>
+              </h2>
+              <div
+                id="collapseOne5"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne5"
+              >
+                <div class="accordion-body py-4 px-5">
+                  <strong class="text-lg">Software Developer/Testing</strong>
+                  <p class="italic">Oct 2018 – June 2021 (casual)</p>
+                  <p class="italic">July 2021 – Present (Full-Time)</p>
+                  <div class="pl-10">
+                    <ul class="list-disc">
+                      <li>Debug and fix existing mobile applications.</li>
+                      <li>
+                        Add new features to mobile applications to meet the
+                        client requirement.
+                      </li>
+                      <li>Add or modify SQL database.</li>
+                      <li>
+                        Add and Modify Web API to complete or fix new function.
+                      </li>
+                      <li>
+                        Use Azure DevOps service for source control and team
+                        foundation.
+                      </li>
+                      <li>
+                        Use the Agile approach to manage a project and software
+                        development.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item bg-white border border-gray-200">
+              <h2 class="accordion-header mb-0" id="headingTwo5">
+                <button
+                  class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo5"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo5"
+                >
+                  Civil Engineer -Land Development Department, Thailand
+                </button>
+              </h2>
+              <div
+                id="collapseTwo5"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo5"
+              >
+                <div class="accordion-body py-4 px-5">
+                  <strong> Civil Engineer/Estimation.</strong>
+                  <p class="italic">Mar 2002 – Oct 2003 (Full-Time)</p>
+                  <div class="pl-10">
+                    <ul class="list-disc">
+                      <li>
+                        Site inspection for civil works, which includes
+                        structural & finishing works and ensure that the work is
+                        as per the Project Specifications and issued for
+                        construction drawing/final approved drawings from
+                        authorities.
+                      </li>
+                      <li>
+                        Participated part in survey and design of small-scale
+                        water resources department projects.
+                      </li>
+                      <li>Coordination with subcontractors.</li>
+                      <li>
+                        Cost estimation for small-scale water resources
+                        department projects
+                      </li>
+                      <li>
+                        Monitor the progress of work with respect to the Master
+                        Program.
+                      </li>
+                      <li>Analysis and recommendations of claims</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-white border border-gray-200">
+              <h2 class="accordion-header mb-0" id="headingThree5">
+                <button
+                  class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree5"
+                  aria-expanded="false"
+                  aria-controls="collapseThree5"
+                >
+                  Civil Engineer -Petro Bangkok co.,Ltd, Thailand
+                </button>
+              </h2>
+              <div
+                id="collapseThree5"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree5"
+              >
+                <div class="accordion-body py-4 px-5">
+                  <strong>Site Engineer</strong>
+                  <p class="italic">Jan 2000 – Jan 2002 (Full-Time)</p>
+                  <div class="pl-10">
+                    <ul class="list-disc">
+                      <li>
+                        Ensure that all the works meet the stipulated quality
+                        standards.
+                      </li>
+                      <li>
+                        Issuing site instructions against violations at the
+                        site.
+                      </li>
+                      <li>
+                        Ensure the quality of building materials, concrete,
+                        etc..., through various tests.
+                      </li>
+                      <li>
+                        Coordination of architectural and structural drawings.
+                      </li>
+                      <li>Preparation of Running Account bills.</li>
+                      <li>Proper management of materials and workmanship.</li>
+                      <li>Preparing and analyzing productivity Reports.</li>
+                      <li>
+                        Daily updating of coasting sheets for the project
+                        manager.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-white border border-gray-200">
+              <h2 class="accordion-header mb-0" id="headingfour5">
+                <button
+                  class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour5"
+                  aria-expanded="true"
+                  aria-controls="collapsefour5"
+                >
+                  Restaurant Owner-Thai Treasure Restaurant, St. Lucia Brisbane,
+                  Australia
+                </button>
+              </h2>
+              <div
+                id="collapsefour5"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingfour5"
+              >
+                <div class="accordion-body py-4 px-5">
+                  <strong class="text-lg">Owner </strong>
+
+                  <p class="italic">Jan 2007 – Mar 2017</p>
+                  <div class="pl-10">
+                    <ul class="list-disc">
+                      <li>Manage a team and provide good customer service.</li>
+                      <li>Solve all problems and issues in the restaurant.</li>
+                      <li>
+                        Come up with a business strategy to improve the business
+                        overall.
+                      </li>
+                      <li>Ensure the quality of the food is good.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--thrid row content Education-->
+        <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
+          <h2 class="title-font text-4xl font-bold mb-3">Education</h2>
+          <div class="grid grid-cols-1 gap-4 pl-8 bg-white rounded-md py-3">
+            <div>
+              <p class="italic">2018-2020</p>
+              <h3 class="text-lg font-bold">
+                Bachelor of Information Technology (Computer science)
+              </h3>
+              <p>
+                Queensland University of Technology (QUT), Queensland, Australia
+              </p>
+            </div>
+            <div>
+              <p class="italic">2017-2018</p>
+              <h3 class="text-lg font-bold">Diploma of Software Development</h3>
+              <p>TAFE Queensland, Queensland, Australia</p>
+            </div>
+            <div>
+              <p class="italic">2005-2006</p>
+              <h3 class="text-lg font-bold">AutoCAD Design</h3>
+              <p>TAFE Queensland, Queensland, Australia</p>
+            </div>
+            <div>
+              <p class="italic">1996-1999</p>
+              <h3 class="text-lg font-bold">Bachelor of Civil Engineer</h3>
+              <p>
+                Mahanakorn University of Technology (MUT), Bangkok, Thailand
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Fourth row content Education-->
+        <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
+          <section class="bg-white">
+            <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+              <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+                <div class="lg:py-12 lg:col-span-2">
+                  <p class="max-w-xl text-2xl">
+                    If you want to get in touch with me, fill in your details
+                    and let me know what you need.
+                  </p>
+                  <div class="mt-8">
+                    <address class="mt-2 not-italic text-3xl">
+                      Brisbane, Australia
+                    </address>
+                  </div>
+                </div>
+
+                <div
+                  class="p-8 bg-gray-400 rounded-lg shadow-lg lg:p-12 lg:col-span-3"
+                >
+                  <form action="" class="space-y-4">
+                    <div>
+                      <label class="sr-only" for="name">Name</label>
+                      <input
+                        class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                        placeholder="Name"
+                        type="text"
+                        id="name"
+                      />
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <div>
+                        <label class="sr-only" for="email">Email</label>
+                        <input
+                          class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                          placeholder="Email address"
+                          type="email"
+                          id="email"
+                        />
+                      </div>
+
+                      <div>
+                        <label class="sr-only" for="phone">Phone</label>
+                        <input
+                          class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                          placeholder="Phone Number"
+                          type="tel"
+                          id="phone"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label class="sr-only" for="message">Message</label>
+                      <textarea
+                        class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                        placeholder="Message"
+                        rows="8"
+                        id="message"
+                      ></textarea>
+                    </div>
+
+                    <div class="mt-4">
+                      <button
+                        type="submit"
+                        class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
+                      >
+                        <span class="font-medium"> Send </span>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="w-5 h-5 ml-3"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M14 5l7 7m0 0l-7 7m7-7H3"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- end other -->
+        </div>
+      </div>
     </div>
-    <footer class="text-center  py-8">
-
-        <div class="text-center p-4 text-white">
-            © 2022 Copyright:
-            <a class="text-whitehite" href="/">Devcodingskill</a>
-        </div>
-        <div class="flex items-center justify-center gap-4 text-white">
-            <a href="https://www.linkedin.com/in/yutthana-tantinimitchok-28013346/"><i
-                    class="fab fa-linkedin fa-3x "></i></a>
-            <a href="https://github.com/devcodingskill"><i class="fab fa-github-square fa-3x "></i></a>
-        </div>
-
+    <footer class="text-center py-8">
+      <div class="text-center p-4 text-white">
+        © 2022 Copyright:
+        <a class="text-whitehite" href="/">Devcodingskill</a>
+      </div>
+      <div class="flex items-center justify-center gap-4 text-white">
+        <a href="https://www.linkedin.com/in/yutthana-tantinimitchok-28013346/"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+        <a href="https://github.com/devcodingskill"
+          ><i class="fab fa-github-square fa-3x"></i
+        ></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

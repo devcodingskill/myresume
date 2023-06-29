@@ -19,6 +19,21 @@
       href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <!-- for send email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" >
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "<sender’s email address>",
+          Password: "<email password>",
+          To: "<recipient’s email address>",
+          From: "<sender’s email address>",
+          Subject: "<email subject>",
+          Body: "<email body>",
+        }).then((message) => alert("mail sent successfully"));
+      }
+    </script>
   </head>
 
   <body class="bg-gray-600">
@@ -323,7 +338,7 @@
             </div>
           </div>
         </div>
-        <!--Fourth row content Education-->
+        <!--Fourth row content Form email-->
         <div class="bg-gray-200 rounded-2xl px-4 py-4 border-2 drop-shadow-2xl">
           <section class="bg-white">
             <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
@@ -389,6 +404,7 @@
                     <div class="mt-4">
                       <button
                         type="submit"
+                        onclick="sendEmail()"
                         class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-black rounded-lg sm:w-auto"
                       >
                         <span class="font-medium"> Send </span>
@@ -418,6 +434,8 @@
         </div>
       </div>
     </div>
+    <!-- EOF content -->
+    <!-- footer content -->
     <footer class="text-center py-8">
       <div class="text-center p-4 text-white">
         © 2022 Copyright:
@@ -432,5 +450,6 @@
         ></a>
       </div>
     </footer>
+    
   </body>
 </html>
